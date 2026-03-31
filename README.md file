@@ -1,0 +1,88 @@
+# Fundamentals-of-AI-and-ML-Evaluated-Course-Project
+A* Pathfinding in Python
+
+Overview
+
+This project is about the A* search algorithm. The A* search algorithm is used to find the path from a start position to a goal position in a grid-based maze. The A* search algorithm avoids walls. It uses a heuristic, which's the Manhattan distance to help the search.
+
+Features
+
+The project uses Pythons heapq to manage a priority queue for the A* search.
+
+The A* search algorithm works with grid-based mazes that have walls and open paths.
+
+The path is shown with symbols:
+
+* S means Start
+
+* G means Goal
+
+* * means the path taken
+
+* # means Wall
+
+*. Means space
+
+Requirements
+
+You need Python 3.7 or a newer version.
+
+You do not need any libraries just the built-in heapq.
+
+Setup & Usage
+
+To use this project you need to clone the repository:
+
+git clone https://github.com/your-username/a-star-maze.git
+
+Then go to the a-star-maze directory:
+
+cd a-star-maze
+
+Now you can run the script:
+
+python a_star.py
+
+The program will show you the path coordinates from the start to the goal.
+
+It will also show you a representation of the maze with the path marked.
+
+Example Output
+
+The path the agent takes is: [(0, 0) (1, 0) (2, 0) (2, 1) (2, 2) (3, 2) (4 2) (4, 3) (4, 4)]
+
+The maze looks like this:
+
+S #...
+
+* #. #.
+
+* * * #.
+
+# # * #.
+
+.. * * G
+
+Customization
+
+You can change the maze in the a_star.py file to try layouts.
+
+You can change the start position and the goal position.
+
+If you want to allow movement you can update the heuristic function to use the Euclidean distance.
+
+Learning Notes
+
+This project is good for learning about the A* search algorithm and pathfinding algorithms.
+
+It is also good for learning about search and solving problems, on a grid.
+
+The A* search algorithm is an algorithm to learn about.
+
+Pathfinding algorithms are used in games and applications.
+
+Heuristic search is a way to solve problems when you do not know the best solution.
+
+Grid-based problem solving is a way to solve problems that can be represented on a grid.
+
+The A* search algorithm is an example of a pathfinding algorithm
